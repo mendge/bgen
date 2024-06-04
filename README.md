@@ -21,13 +21,13 @@
 右边 release 手动下载 bgen.exe 可执行命令（或者自己源码编译生成），进入终端并且 cd 到 bgen.exe 所在目录。
 命令实现对单视频的处理和多视频的批处理，命令示例中尖括号对应的参数需要根据你自己的目录来填写：
 
-【单视频处理：`./bgen.exe <srcdir> <destdir>`】
+单视频处理：【`./bgen.exe <srcdir> <destdir>`】
 
-根据上面图片,`srcdir`就应该是`D://mendge//video//bili//1550140098`,`destdir`是目的.mp4文件的输出路径，由自己指定。
+根据上面图片，`srcdir`是`D://mendge//video//bili//1550140098`，`destdir`是目的.mp4文件的输出路径，由自己指定。
 
-【多视频批处理：`./bgen.exe <srcdir> <destdir> --batch`】
+多视频批处理：【`./bgen.exe <srcdir> <destdir> --batch`】
 
-根据上面图片我的`srcdir`就应该是`D://mendge//video//bili`
+根据上面图片，我的`srcdir`是`D://mendge//video//bili`
 
 ## 贡献
 ```shell
